@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="school view project from UW CSE440">
+    <meta name="author" content="chiahan">
+
+    <title>School View</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- FontAwesome CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" >
+    
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <div class="sidebar-brand">
+                    <img src="img/logo.png" alt="home" width="100%">
+                </div>
+                <li>
+                    <a onclick="scrollAnimate(this)" data-target="overview" >OVERVIEW</a>
+                </li>
+                <li>
+                    <a onclick="scrollAnimate(this)" data-target="prototype">PROTOTYPE</a>
+                </li>              
+                <li>
+                    <a onclick="scrollAnimate(this)" data-target="team">OUR TEAM</a>
+                </li>
+                <li>
+                    <a onclick="scrollAnimate(this)" data-target="document">DOCUMENT</a>
+                </li>
+            </ul>
+        </div>
+        <!-- #sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div class="page-content-wrapper overview" id="overview">            
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Overview</h1>
+
+                        <h3>Problem & Solution</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel sodales erat. Praesent eu velit vel enim accumsan blandit tempus a elit. Nam ultricies, nibh pellentesque posuere fringilla, lectus mi venenatis ipsum, non pellentesque justo neque eu ipsum. Vestibulum accumsan justo justo, non vehicula tortor sodales in. Nunc pharetra diam nec nunc vehicula pulvinar. Nam augue lorem, sagittis quis hendrerit ac, aliquet maximus nisi. Nulla nulla tortor, imperdiet eu aliquam nec, laoreet sagittis nibh. Nunc tempus, risus tempor dapibus ultricies, nibh ipsum venenatis mauris, quis mattis diam dolor porttitor orci.
+
+                        Pellentesque vitae ipsum imperdiet, maximus turpis at, ullamcorper diam. Mauris id ex urna. Nulla at nunc eros. Maecenas tincidunt ullamcorper ante, sed eleifend nunc convallis a. Quisque sagittis metus a est varius, eu viverra augue elementum. Donec tristique metus diam, nec cursus dui laoreet non. Aliquam nec neque sed nisl auctor mattis. Maecenas faucibus nibh vitae dictum sagittis.</p>
+                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div class="page-content-wrapper prototype" id="prototype">            
+            <div class="container-fluid">
+                <div class="row">
+                     <div class="col-lg-12">
+                        <h1>Prototype</h1>
+                        <p>Pellentesque vitae ipsum imperdiet, maximus turpis at, ullamcorper diam. Mauris id ex urna. Nulla at nunc eros. Maecenas tincidunt ullamcorper ante, sed eleifend nunc convallis a. Quisque sagittis metus a est varius, eu viverra augue elementum. Donec tristique metus diam, nec cursus dui laoreet non. Aliquam nec neque sed nisl auctor mattis. Maecenas faucibus nibh vitae dictum sagittis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-content-wrapper team" id="team">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Our Team</h1>
+                        <p>Pellentesque vitae ipsum imperdiet, maximus turpis at, ullamcorper diam. Mauris id ex urna. Nulla at nunc eros. Maecenas tincidunt ullamcorper ante, sed eleifend nunc convallis a. Quisque sagittis metus a est varius, eu viverra augue elementum. Donec tristique metus diam, nec cursus dui laoreet non. Aliquam nec neque sed nisl auctor mattis. Maecenas faucibus nibh vitae dictum sagittis.</p>
+                        <div class="row">
+                            <div class="col-sm-4 text-center">
+                                <img src="img/chiahan.jpg" class="img-responsive img-circle center-block" width="65%">
+                                <h3>Chia-Han Chung</h3>
+                                <hr style="width: 70%; border-color: black; margin-top: 0.5em; margin-bottom: 0.5em">
+                                <p>Computer Science<br>Web developer, Designer</p>
+                                <a href="https://www.linkedin.com/in/chiahan"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                            </div>
+                            <div class="col-sm-4 text-center">
+                                <img src="img/temp.gif" class="img-responsive img-circle center-block" width="65%">
+                                <h3>Ji Soo Yim</h3>
+                                <hr style="width: 70%; border-color: black; margin-top: 0.5em; margin-bottom: 0.5em">
+                                <p></p>
+                                <a href=""><i class="fa fa-2x fa-linkedin-square"></i></a>
+                            </div>
+                            <div class="col-sm-4 text-center">
+                                <img src="img/temp.gif" class="img-responsive img-circle center-block" width="65%">
+                                <h3>Kyle Freed</h3>
+                                <hr style="width: 70%; border-color: black; margin-top: 0.5em; margin-bottom: 0.5em">
+                                <p>HCI+D</p>
+                                <a href=""><i class="fa fa-2x fa-linkedin-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-content-wrapper document" id="document">            
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Document</h1>
+                        <hr style="border-color: black;">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img src="img/report.png" alt="report" class="img-responsive thumbnail">
+                            </div>
+                            <div class="col-sm-9 caption">
+                                <h3>Project 2 Fianl Report</h3>
+                                <p>Get the Right Design: Includind context inquery, task analysis, design sketches and storyboards.</p>
+                                <p> 
+                                    <a href="file/proj2FinalReport.pdf" class="btn btn-primary" role="button" target="_blank">View</a> 
+                                    <a href="file/proj2FinalReport.pdf" class="btn btn-default" role="button" download>Download</a>
+                                </p>
+                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img src="img/report.png" alt="report" class="img-responsive thumbnail">
+                            </div>
+                            <div class="col-sm-9 caption">
+                                <h3>Project 2 Presentation</h3>
+                                <p>Get the Right Design: Includind context inquery, task analysis, design sketches and storyboards.</p>
+                                <p> 
+                                    <a href="file/proj2FinalReport.pdf" class="btn btn-primary" role="button" target="_blank">View</a> 
+                                    <a href="file/proj2FinalReport.pdf" class="btn btn-default" role="button" download>Download</a>
+                                </p>
+                            </div>
+                            <div class="col-sm-9 caption">
+                                <h3>Final Presentation</h3>
+                                <p>Get the Right Design: Includind context inquery, task analysis, design sketches and storyboards.</p>
+                                <p> 
+                                    <a href="file/proj2FinalReport.pdf" class="btn btn-primary" role="button" target="_blank">View</a> 
+                                    <a href="file/proj2FinalReport.pdf" class="btn btn-default" role="button" download>Download</a>
+                                </p>
+                            </div>
+                        </div>                            
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script>
+            function scrollAnimate(target) {
+                var target_id = target.getAttribute("data-target");
+                $('html, body').animate({
+                    scrollTop: $("#"+target_id).offset().top
+                }, 1000);
+            }
+  </script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
